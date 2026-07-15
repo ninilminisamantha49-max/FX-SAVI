@@ -1,1 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    text-align: center;
+}
 
+.app {
+    padding: 30px;
+}
+
+h1 {
+    color: gold;
+    font-size: 40px;
+}
+
+.box {
+    background: #222;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+button {
+    background: gold;
+    color: black;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 18px;
+}
