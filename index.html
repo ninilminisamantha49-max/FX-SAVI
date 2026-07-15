@@ -9,22 +9,44 @@
 <body>
 
 <div class="app">
-    <h1>FX SAVI</h1>
-    <p>Gold Fundamental Analysis</p>
 
-    <div class="box">
-        <h3>Market Status</h3>
-        <p id="market">Checking...</p>
-    </div>
+<h1>FX SAVI</h1>
+<p>Gold Fundamental Analysis</p>
 
-    <div class="box">
-        <h3>Latest Signal</h3>
-        <p id="signal">No Signal</p>
-    </div>
+<div id="loginBox" class="box">
+    <h2>Login</h2>
+
+    <input type="email" id="email" placeholder="Email">
+
+    <input type="password" id="password" placeholder="Password">
 
     <button onclick="login()">Login</button>
+</div>
+
+
+<div id="homeBox" class="box" style="display:none;">
+
+<h2>Gold Market</h2>
+
+<p id="marketStatus"></p>
+
+<h3>Latest Fundamental Analysis</h3>
+
+<p id="analysis">
+Waiting for update...
+</p>
+
+<h3>Signal</h3>
+
+<p id="signal">
+No Signal
+</p>
 
 </div>
+
+
+</div>
+
 
 <script src="script.js"></script>
 
